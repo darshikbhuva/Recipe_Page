@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(250, 236, 239);
+}
+
+.container {
+  height: 100%;
+  width: 800px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 40px;
+}
+
+.img {
+  height: 400px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.description h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  color: #890536;
+}
+
+.description p {
+  margin-top: 20px;
+  color: #890536;
+}
+
+.making-process {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(253, 241, 243);
+  border-radius: 15px;
+}
+
+.making-process h3 {
+  margin: 10px;
+  color: #890536;
+}
+
+.making-process ul {
+  padding-left: 40px;
+  padding-bottom: 12px;
+}
+
+.making-process span {
+  font-weight: 600;
+  color: brown;
+}
+
+.making-process ul li {
+  padding: 5px;
+}
+
+.ingredients {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients h2 {
+  color: brown;
+}
+
+.ingredients ul {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+.ingredients ul li {
+  padding: 5px;
+}
+
+.instruction {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.instruction h2 {
+  color: brown;
+}
+
+.instruction ol {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.instruction ol li {
+  padding: 5px;
+}
+
+.instruction span {
+  font-weight: 600;
+  color: #890536;
+}
+
+.nutrition {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nutrition h2 {
+  color: brown;
+}
+
+.nutrition p {
+  padding: 20px 0px 20px 0px;
+}
+
+.nutrition table {
+  text-align: left;
+  margin-left: 20px;
+  border: none;
+}
+
+.nutrition th {
+  width: 1000px;
+  padding: 20px;
+  color: #890536;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.nutrition td {
+  width: 1000px;
+  padding: 20px;
+  color: #890536;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#last {
+  border: none;
+}
